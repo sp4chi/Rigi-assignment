@@ -1,0 +1,106 @@
+.community {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.community > div {
+  width: 50%;
+}
+
+.community-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.community-details > p {
+  text-align: left;
+}
+
+.community-features {
+  list-style: none;
+}
+
+.community-list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.community-list-content {
+  text-align: left;
+  font-size: 1rem;
+  width: 80%;
+}
+
+.checkbox {
+  height: 1.6rem;
+  width: 1.6rem;
+
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-img-container {
+  margin-left: auto;
+  height: 30rem;
+  background: #ced6ff;
+  padding-bottom: 0;
+}
+
+.community-creator-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-card {
+  width: 19rem;
+  border-radius: 1.5rem;
+}
+
+.courses-detail {
+  padding: 0 0.5rem;
+  margin: 1rem 0;
+}
+
+.courses-btn {
+  width: 100%;
+}
+
+.consultation-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.consultation-icon--container {
+  background: rgb(235, 239, 253);
+}
+
+.consultation-icon {
+  background: rgb(235, 239, 253);
+  color: #335ff4;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meet-img {
+  width: 55%;
+  height: 55%;
+}
+
+.toolbar-info {
+  font-family: 'Roboto', sans-serif;
+}

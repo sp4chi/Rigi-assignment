@@ -1,0 +1,64 @@
+.carousal-container > h1 {
+  text-align: center;
+}
+
+.client-carousal {
+  margin: 0 auto;
+  /* display: flex;
+    flex-direction: row; */
+
+  color: #335ff4;
+  font-size: x-large;
+}
+
+.left-slide {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.right-slide {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.slide {
+  width: max-content;
+  height: 5rem;
+  background-color: rgb(235, 239, 253);
+  color: #335ff4;
+}
+
+.forbes {
+  letter-spacing: -2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+
+  color: #335ff4;
+}
+
+.economic-times {
+  letter-spacing: -2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  color: #335ff4;
+}
+
+.times {
+  letter-spacing: -2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #335ff4;
+}
+
+.mint {
+  letter-spacing: -2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  text-transform: lowercase;
+  color: #335ff4;
+}
