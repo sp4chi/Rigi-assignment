@@ -14,7 +14,7 @@
 .social-media {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .social-media-icon--container {
